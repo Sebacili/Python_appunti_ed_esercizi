@@ -1,0 +1,2 @@
+slicing: meccanismo attraverso il quale recuperiamo una parte della lista in python
+list comprehension: meccanismo attraverso il quale costruiamo una lista scrivendo nelle parentesi quadre le istruzioni per generare i singoli elementi della lista
