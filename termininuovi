@@ -82,4 +82,5 @@ per la funzione sarà sempre lista.
 elementi è il parametro attuale(in quel momento richiamata con quel valore)
 Parametro formale: il parametro con cui viene formata la funzione. --> def scambia(parametroFormale)
 Parametro attuale: il parametro su cui si lavora in quel momento. --> scambia(parametroAtuuale)
-
+la cosa importante di oggi la funzione deve avere una vita propria un parametro d ingresso e un valore di uscita deve vivere in  programmi diversi 
+La funzione deve essere separata dall'insieme di istruzioni che riguardano l'interfaccia dell'utente.
