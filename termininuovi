@@ -77,3 +77,9 @@ Funzioni
 - implicitadd() = calcola il risultato di addizione tra tre numeri definiti dal comando
 - global = richiama variabili in tutto il codice
 - lambda = valorizza un elemento non definito all'interno del codice
+formale: è la forma che il nostro parametro ha della funzione
+per la funzione sarà sempre lista.
+elementi è il parametro attuale(in quel momento richiamata con quel valore)
+Parametro formale: il parametro con cui viene formata la funzione. --> def scambia(parametroFormale)
+Parametro attuale: il parametro su cui si lavora in quel momento. --> scambia(parametroAtuuale)
+
