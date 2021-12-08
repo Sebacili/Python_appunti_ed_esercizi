@@ -1,2 +1,86 @@
-[InternetShortcut]
-URL=https://github.com/Sebacili/Python_appunti_ed_esercizi/blob/main/termininuovi
+slicing: meccanismo attraverso il quale recuperiamo una parte della lista in python
+list comprehension: meccanismo attraverso il quale costruiamo una lista scrivendo nelle parentesi quadre le istruzioni per generare i singoli elementi della lista
+01
+Operazioni Aritmetiche
+
++    = Addizione
+-     = Sottrazione
+/    = Divisione
+//   = Divisione netta
+%   = Resto Divisione
+*    = Moltiplicazione
+**  = Elevazione a potenza
+== = Vero, se uguale
+!=  = Vero, se differente
+
+round() = arrotonda
+
+input() = inserimento di un elemento da parte dell'utente
+
+02
+Stringhe
+
+print() = stampa elementi
+upper()= maiuscolo
+lower()= minuscolo
+swapcase () = inverti minuscolo e maiuscolo
+split () = divisione della stringa
+
+03
+Data Structures
+
+Lists = lista di elementi contrassegnati da posizioni definite
+Slicing = list[ n : n ] = taglia la stringa secondo l'indicazione data dall'utente
+- len() = indicatore di lunghezza
+- a in b = determina se un elemento è contenuto all'interno di una lista (True or False)
+- Key = determina secondo quale valore vengono prelevati gli elementi
+- append() = aggiunge un elemento alla fine della lista
+- count() = conta quanti elementi sono contenuti in una lista
+-. index()  = indica un determinato elemento nella lista
+- insert() = inserisce nella lista un determinato elemento nella posizione prestabilita dall'utente
+- pop() = rimuove l'ultimo elemento della lista
+- remove / del = rimuove un elemento definito dall'utente dalla lista
+- .reverse() = inverte l'ordine degli elementi della lista
+- .sort() = ordina gli elementi della lista in ordine alfabetico o numerico
+- .sort(Key=...) = ordina gli elementi della lista in base alla key
+
+List Comprehension = riconoscimento degli elementi all'interno della lista
+
+04
+Dizionari 
+Data Structures caratterizzate da values dipendenti dalle proprie keys
+
+- clear() = ripulisce la data structure da tutti i suoi elementi
+- keys() = individua le keys del dizionario senza le rispettive values
+- values() = individua le values del dizionario senza le rispettive keys
+- items() = individua le keys e le values all'interno del dizionario
+- pop() = rimuove una determinata key con la propria value
+
+05
+Condizioni
+
+- if = "se", svolgi una determinata funzione solo se l'affermazione è vera
+
+- elif = "invece se", se l'affermazione non è vera, svolgi quest'altra funzione
+
+- else = "invece", se le affermazioni non sono vere, allora svolgi questa funzione
+
+- for = crea una variabile e svolgi determinate funzioni ogni volta che si ritrova quella variabile nella data structure annunciata nel comando
+
+- while = "mentre", svolgi determinate funzioni finché l'affermazione non risulta falsa
+
+06
+Funzioni
+
+- firstfunc() =  stampa un messaggio per ogni singola persona in base agli argomenti che memorizza dall'utente
+- times() = calcola il prodotto tra i due elementi al suo interno
+- implicitadd() = calcola il risultato di addizione tra tre numeri definiti dal comando
+- global = richiama variabili in tutto il codice
+- lambda = valorizza un elemento non definito all'interno del codice
+formale: è la forma che il nostro parametro ha della funzione
+per la funzione sarà sempre lista.
+elementi è il parametro attuale(in quel momento richiamata con quel valore)
+Parametro formale: il parametro con cui viene formata la funzione. --> def scambia(parametroFormale)
+Parametro attuale: il parametro su cui si lavora in quel momento. --> scambia(parametroAtuuale)
+la cosa importante di oggi la funzione deve avere una vita propria un parametro d ingresso e un valore di uscita deve vivere in  programmi diversi 
+La funzione deve essere separata dall'insieme di istruzioni che riguardano l'interfaccia dell'utente.
